@@ -1,5 +1,6 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=290
+This is a fork of Johannes Tanzler's ruby-matchit plugin.
 
-Map '%' to jump from one keyword to its corresponding 'end' in Ruby files. Inspired by 'matchit.vim' that comes with Vim.
+There are currently two differences:
 
-
+* The plugin is now an ftplugin, so it is only loaded in ruby files
+* This fixes a bug where parentheses, braces, & brackets did not match properly
