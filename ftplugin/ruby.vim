@@ -22,6 +22,7 @@ function! s:Ruby_Matchit()
   " use default matching for parenthesis, brackets and braces:
   if strpart(getline("."), col(".")-1, 1) =~ '(\|)\|{\|}\|\[\|\]'
     normal \\\\\
+    return
   endif
 
   normal ^
